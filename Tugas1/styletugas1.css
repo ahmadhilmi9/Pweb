@@ -14,7 +14,7 @@ header{
   width: 95%;
   max-width: 555px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 12px;
   margin-top: 15px;
 }
@@ -61,6 +61,18 @@ p{
 .share-button svg {
   margin-left: 12px;
   margin-top: 12px;
+}
+
+.subscribe-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.subscribe-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+  filter: brightness(0) invert(1);
 }
 
 .container{
